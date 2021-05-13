@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker run -it --rm -v ${PWD}:/terraform -v ${HOME}/.terraform.d:/root/.terraform.d -w /terraform hashicorp/terraform:latest "$@" ;
+}
+

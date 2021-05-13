@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -it --rm -w /work -v ${PWD}:/work -v /home/greg/.aws:/root/.aws amazon/aws-cli "$@" ;

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -it --rm -w /root -v ${HOME}/.azure:/root/.azure mcr.microsoft.com/azure-cli:latest az "$@" ;
+
