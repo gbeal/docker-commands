@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -it --rm -w /work -v ${PWD}:/work python "$@" ;
+docker run -it --rm -w /work -v ${PWD}:/work python:latest python "$@" ;
